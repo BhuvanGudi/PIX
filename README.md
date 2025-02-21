@@ -13,14 +13,25 @@
 
 ---
 
-## 📋 Requirements
-- Python 3.x
-- Hugging Face account for API token
+# 📋 Requirements
 
-### Additional Libraries
-Depending on your setup:
-- **CUDA (GPU) Version**: Ensure you have an NVIDIA GPU with CUDA support.
-- **CPU Version**: No GPU needed, but expect slower generation times.
+## Software Requirements
+- **Python 3.x**  
+  Make sure you have Python 3 installed. You can download it from the [official Python website](https://www.python.org/downloads/).
+
+- **Hugging Face API Access**  
+  A valid [Hugging Face](https://huggingface.co/) account is required to obtain an API token.
+
+## Hardware Requirements
+
+### 🔧 CUDA (GPU) Version
+- NVIDIA GPU with CUDA support
+- At least **2.5 GB of VRAM** (Some models may require more for optimal performance)
+
+### 🖥️ CPU Version
+- No dedicated GPU required  
+  _(Note: Processing speed will be slower compared to GPU execution)_
+
 
 ---
 
