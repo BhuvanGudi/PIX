@@ -22,5 +22,8 @@ lmain.place(x=10, y=110)
 
 trigger = ctk.CTkButton(app, height=40, width=120, font=("Arial", 20), text_color="white", fg_color="blue")
 trigger.place(x=206, y=60)
+trigger.configure(text="Generate")
+
+
 
 app.mainloop()
